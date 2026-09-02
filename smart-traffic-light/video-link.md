@@ -1,4 +1,3 @@
-# Video project
+# Project Demo
 
-Klik link untuk menonton video hasil project
-https://youtu.be/3_j1ovVLSNc
+Click the link to watch the project demonstration video: https://youtu.be/3_j1ovVLSNc
