@@ -4,7 +4,7 @@ An adaptive traffic management system prototype that utilizes computer vision to
 
 ## Tech Stack
 * **Language & Vision:** Python, OpenCV
-* **AI Model:** YOLOv13 (Object Detection
+* **AI Model:** YOLOv13 (Object Detection)
 * **Microcontroller:** ESP32
 * **Actuators:** LED Traffic Light Simulators
 
