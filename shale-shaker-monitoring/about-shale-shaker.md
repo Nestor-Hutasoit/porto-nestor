@@ -1,18 +1,15 @@
 # AI-Based Shale Shaker Monitoring & Cutting Analysis
 
-**Project Status: Work in Progress (Active Development)**
+**Project Status: Phase 1 - Data Annotation & Dataset Creation**
 
-This project is currently under active development. Source code, technical documentation, and further updates will be published incrementally to this repository as the project progresses.
-
-## Project Overview
-A real-time computer vision system designed to identify and calculate the percentage of rock cutting materials on shale shakers in drilling operational environments. The system aims to provide accurate analytical monitoring while remaining robust against dynamic lighting and environmental changes.
+This project is currently in the initial development phase. The team is actively constructing a custom visual dataset by annotating images of shale shaker operations to train a robust object detection model. Source code and documentation will be updated as the pipeline matures.
 
 ## Planned Tech Stack
 * **Computer Vision:** YOLO (Object Detection), OpenCV
-* **Backend & Data Processing:** Python, RTSP Stream Processing
-* **Database:** PostgreSQL
+* **Data Preparation:** Image Annotation Tools, Python
+* **Backend:** RTSP Stream Processing, PostgreSQL
 
-## Key Objectives
-* Train and deploy a robust AI detection model using visual datasets from shale shaker operations.
-* Implement low-latency real-time video stream processing for continuous cutting analysis.
-* Develop a backend architecture to store and manage analytical data for monitoring purposes.
+## Project Overview & Current Progress
+* **Core Objective:** Build a real-time computer vision system to identify and calculate the volume percentage of rock cutting materials on shale shakers in dynamic drilling environments.
+* **Current Phase (Data Annotation):** Actively labeling and annotating raw video frames to create a high-quality, domain-specific dataset. This critical step ensures the AI model can accurately distinguish rock cuttings from drilling fluid and moving mechanical equipment.
+* **Next Steps:** Following dataset completion and validation, the development will shift toward training the YOLO model, evaluating its accuracy, and building the real-time video stream processing architecture.
